@@ -1,0 +1,529 @@
+/* Color Pallete for Website = http://www.colourlovers.com/palette/4333909/DEYISD */
+html *
+{
+font-family: 'Raleway', sans-serif;
+}
+
+.table-expand {
+  margin-top: 5rem;
+}
+
+.table-expand td {
+  color: #8a8a8a;
+}
+
+.table-expand tr {
+  border: 1px solid #e6e6e6;
+}
+
+.table-expand .text-right {
+  padding-right: 3rem;
+}
+
+.table-expand-row.is-active .expand-icon::after {
+  content: '-';
+}
+
+.table-expand-row .expand-icon::after {
+  content: '+';
+  float: right;
+}
+
+.table-expand-row-content {
+  display: none;
+}
+
+.table-expand-row-content.is-active {
+  display: table-row;
+  -webkit-animation: fadeIn ease-in 1;
+          animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+}
+
+.table-expand-row-nested {
+  background-color: #e6e6e6;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+hr.x{
+border:0px;	
+}
+
+/*  Videos  */
+.vid_zone{
+padding:0px 20px 0px 0px;
+}
+
+.shareiticon{
+color:#333;
+padding:5px 0px 5px 0px;
+background:#ddd;
+border:2px solid #fff;
+}
+
+.shareiticon:hover{
+color:rgb(90,200,251);
+background:#f4f4f4;
+border:2px solid rgb(91,202,255);
+}
+
+.delVidX{
+color:#fff;
+padding:5px 0px 5px 0px;
+background:#FF4981;
+border:2px solid #fff;
+}
+
+.delVidX:hover{
+color:#FF4981;
+background:#f4f4f4;
+border:2px solid #FF4981;
+}
+
+
+
+.tvt{
+display:none;	
+}
+
+/* Site Design */
+.recursoTitle{
+font-size:30px;
+font-family: font-family: 'Raleway', sans-serif;
+color:#fff;	
+}
+
+.MainTitleBars{
+padding-top:10px;
+margin-bottom:10px;
+border-radius:2px;
+}
+
+.mtbDetalles{
+border-top:5px solid #103855;	
+background:#E54028;	
+}
+
+.mtbRecursos{
+border-top:5px solid #E54028;	
+background:#103855;	
+}
+
+.mtbActividad{
+border-top:5px solid #CF1332;	
+background:#2EA7C9;	
+
+}
+
+/*
+#active_actividades{
+margin-bottom:100px;	
+padding-bottom:100px;	
+}
+*/
+
+.arrow-up {
+  width: 0; 
+  height: 0; 
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid white;
+}
+
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  
+  border-top: 20px solid #f00;
+}
+
+.arrow-right {
+  width: 0; 
+  height: 0; 
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+  
+  border-left: 60px solid green;
+}
+
+.arrow-left {
+  width: 0; 
+  height: 0; 
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent; 
+  
+  border-right:10px solid blue; 
+}
+
+
+
+/* Activity Details */
+
+/*
+.fieldSetArcvhives{
+margin-left:2px;
+width:48%;
+}
+*/
+
+.fileActivity{
+padding-right:2px;	
+}
+
+.activityfilelinks{
+padding:10px 10px 10px 0px;
+background:#fff;
+border-radius:5px;
+}
+
+.activityfilelinks a img{
+padding-left:10px;
+font-size:12px;
+}
+
+.activityfilelinks a span{
+padding-left:10px;
+font-size:12px;
+
+}
+
+.didacticFiles{
+padding:0px 20px 0px 5px;	
+}
+
+a i.editDots{
+color:#ccc;
+padding:2px 5px 2px 5px;
+}
+
+a i.shareLink{
+color:#ccc;
+padding:2px 5px 2px 5px;
+border-right:1px solid #ddd;
+font-size:15px;
+}
+
+a:hover i.editDots {
+color:#666;
+}
+
+a:hover i.shareLink {
+color:#666;
+border-right:1px solid #ccc;
+}
+
+/* right-off-canvas */
+
+/* File Deletion */
+li a.killAct_file{
+color:#fff;	
+background: red;
+
+}
+
+li a:hover.killAct_file{
+color:red;	
+background:#f5f5f5;
+
+}
+
+li a.killAct_file i{
+margin-left:-5px;	
+}
+
+li.edit_off_filename{
+margin:10px 0px 10px 0px;	
+padding:10px 0px 10px 0px;	
+border-top:1px solid #fff;
+border-bottom:1px solid #fff;
+}
+
+/* Unidad Text Styles */
+
+div.unidad_text{
+	font-size:14px;
+}
+
+div.unidad_text ul li{
+	font-size:14px;
+	
+}
+
+div.unidad_text p{
+	font-size:14px;
+	
+}
+
+/* Add Boxes for Adding new Content to a Clase */
+
+
+li.addBoxes{
+/* 	border-top:5px solid rgb(0,122,255);	 */
+	background:#1c7cd6;
+	border:0px solid rgb(228,221,202);
+	border-radius:2px;
+	padding:10px;
+	text-align:center;
+	margin-right:5px;
+
+}
+
+li.addBoxes img{
+	width:50px;
+
+}
+
+div.more_choice{
+	background:#1c7cd6;
+	text-align:center;
+	padding-top:20px;
+	font-size:13px;
+	height:60px; 
+	color:#fff;
+	border-bottom:1px solid #ccc;
+}
+
+div.more_choice_alt{
+	background:rgb(255,205,2);
+	text-align:center;
+	padding-top:20px;
+	font-size:13px;
+	height:60px; 
+	color:#fff;
+	border-bottom:1px solid #ccc;
+}
+
+div.more_choice:hover{
+	background:rgb(90,200,251);
+}
+
+div.more_choice_alt:hover{
+	background:rgb(255,91,55);
+}
+
+div.remover_btn{
+display:none;
+background:rgb(255,205,2);
+font-size:12px;
+height:60px; 
+padding:10px;
+color:#fff;
+border-bottom:1px solid #ccc;	
+}
+
+div.remover_btn:hover{
+	background:rgb(255,91,55);
+}
+
+
+div.remover_btn_alt{
+background:rgb(255,205,2);
+font-size:12px;
+height:60px; 
+padding:10px;
+color:#fff;
+border-bottom:1px solid #ccc;	
+}
+
+div.remover_btn_alt:hover{
+	background:rgb(255,91,55);
+}
+
+/* ACTIVIDADES */
+
+H5.ActividadName{
+	height:30px;
+	border-top-left-radius: 10px;
+	background:#f4f4f4;
+/* 	line-height:70px; */
+	font-family: font-family: 'Raleway', sans-serif;
+	color:#3fa6c8;
+	font-size:12px;
+	padding:8px;
+}
+
+H5.herName{
+	margin-top:0px;
+	height:30px;
+	border-top-right-radius: 10px;
+	background:#eee;
+/* 	line-height:70px; */
+	font-family: font-family: 'Raleway', sans-serif;
+	color:#cc0036;
+	font-size:12px;
+	padding:8px;
+}
+
+H5.ActividadNameI{
+	margin-top:0px;
+	height:30px;
+/* 	border-top-left-radius: 10px; */
+	border-top-left-radius: 10px;
+	background:#f4f4f4;
+/* 	line-height:40px; */
+	font-family: font-family: 'Raleway', sans-serif;
+	color:#3fa6c8;
+	font-size:12px;
+	padding:8px;
+}
+
+H5.herNameI{
+	margin-top:0px;
+	height:30px;
+	border-top-right-radius: 10px;
+	background:#ddd;
+/* 	line-height:70px; */
+	font-family: font-family: 'Raleway', sans-serif;
+	color:#cc0036;
+	font-size:12px;
+	padding:8px;
+}
+
+div.actividadDisplay{
+	padding:0px;
+	background:transparent;
+	padding-right:10px;
+	border:0px;
+	
+}
+
+a.act_files_btn{
+	font-family: font-family: 'Raleway', sans-serif;
+/* 	font-size:15px; */
+	font-weight:bold;
+	margin-bottom: 5px;
+}
+
+h5.activityTitles{
+	font-family: font-family: 'Raleway', sans-serif;
+/* 	font-size:15px; */
+	font-weight:bold;
+	margin-bottom: 0px;
+}
+
+a.archivosBtn{
+	margin-top:0px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.dropLecPresHere{
+	background:#f4f4f4;
+	border:dashed 2px #ccc;
+	border-radius:2px;
+	padding:10px;
+	text-align: center;
+	
+
+}
+
+
+#PlantillaMsg{
+
+width:100%;	
+margin-top:-20px;
+margin-bottom:40px;
+border-bottom:10px #ccc solid ;
+}
+
+/* PROGRESS BAR */
+#myProgress {
+  width: 100%;
+  background-color: #ddd;
+}
+
+#myBar {
+  width: 1%;
+  height: 10px;
+  background-color: red;
+}
+/* Mailer Tools */
+
+/* the hidden message that will be sent by ajax will be stored in a div with class hiddenMsg */
+.hiddenMsg{
+background:green;
+color:white;
+}
+
